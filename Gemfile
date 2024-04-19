@@ -60,5 +60,5 @@ group :test do
 end
 
 # App-specific gems
-# gem "shakapacker"
+gem "shakapacker", "~> 6.6.0"
 gem "responders"  # adds responds_with
