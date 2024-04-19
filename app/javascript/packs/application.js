@@ -15,14 +15,12 @@
 // const imagePath = (name) => images(name, true)
 import "../stylesheets/application.scss"
 
+const componentRequireContext = require.context("src", true);
+
 const { setAuthHeaders } = require("apis/axios");
-
-setAuthHeaders();
-
 const { initializeLogger } = require("common/logger");
 
 initializeLogger();
 setAuthHeaders();// Support component names relative to this directory:
-var componentRequireContext = require.context("components", true);
-var ReactRailsUJS = require("react_ujs");
+const ReactRailsUJS = require("react_ujs");
 ReactRailsUJS.useContext(componentRequireContext);
