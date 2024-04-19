@@ -1,4 +1,8 @@
-# README
+# GRANITE
+
+A simple task list built in rails with react. I'm following along a big binary [tutorial](https://courses.bigbinaryacademy.com/learn-rubyonrails/). 
+
+Uses shakapacka
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
