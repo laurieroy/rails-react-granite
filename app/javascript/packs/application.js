@@ -14,3 +14,12 @@
 // const images = require.context('./images', true)
 // const imagePath = (name) => images(name, true)
 import "../stylesheets/application.scss"
+
+const { setAuthHeaders } = require("apis/axios");
+
+setAuthHeaders();
+
+const { initializeLogger } = require("common/logger");
+
+initializeLogger();
+setAuthHeaders();
