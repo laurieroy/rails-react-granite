@@ -62,3 +62,4 @@ end
 # App-specific gems
 gem "shakapacker", "~> 6.6.0"
 gem "responders"  # adds responds_with
+gem "react-rails", "~> 2.7.1"
